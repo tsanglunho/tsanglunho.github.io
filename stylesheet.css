@@ -1,0 +1,55 @@
+body{
+  background:lightgrey;
+  color:white;
+  font-family:Arial;
+  margin:0;
+  padding:0;
+}
+header{
+  background:black;
+  margin:20px 100px;
+  font-size: 200%;
+  font-family: monospace;
+}
+section{
+  background:#ffcc66;
+  color:black;
+  text-align: center;
+}
+div{
+  background:white;
+  display:inline-block;
+  width:auto;
+  height:auto;
+}
+footer{
+  background:black;
+  color: white;
+}
+.player {
+  display: inline-block;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+nav{
+  width: 100%;
+  height:auto;
+}
+ul{
+  margin-left: 60px;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+}
+ul li a{
+  font-family: monospace;
+  color: black;
+  text-decoration: none;
+  padding: 0 40px;
+}
+ul li a:hover{
+  color:red;
+}
